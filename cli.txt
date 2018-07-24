@@ -1,0 +1,14 @@
+ssm-updater
+
+Usage:
+  ssm-updater update --name=<name> --value=<value> --type=<type> [--key-id=<key-id>]
+  ssm-updater -h | --help
+  ssm-updater --version
+
+Options:
+  --name=<name>       The fully qualified name of the parameter that you want to add to the system. E.g.: /Dev/DBServer/MySQL/db-string13
+  --value=<value>     The parameter value that you want to add to the system.
+  --type=<type>       The type of parameter that you want to add to the system. [String, StringList, SecureString]
+  --key-id=<key-id>   The KMS Key ID that you want to use to encrypt a parameter.
+  -h, --help          Show help.
+  -v, --version       Show version.
