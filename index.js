@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 
 require('./cli.js').run(process.argv.splice(2))
