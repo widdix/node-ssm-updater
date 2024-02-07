@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "eslint .",
-    "package": "pkg package.json --targets node16-linux-x64,node16-macos-x64,node16-win-x64"
+    "package": "pkg package.json --targets node18-linux-x64,node18-macos-x64,node18-win-x64"
   },
   "bin": "index.js",
   "pkg": {
