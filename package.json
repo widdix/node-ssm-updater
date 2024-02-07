@@ -5,17 +5,17 @@
   "author": "Michael Wittig <michael@widdix.de>",
   "license": "Apache-2.0",
   "dependencies": {
-    "aws-sdk": "2.275.1",
+    "aws-sdk": "2.1552.0",
     "docopt": "0.6.2",
-    "proxy-agent": "3.0.1"
+    "proxy-agent": "6.3.1"
   },
   "devDependencies": {
-    "pkg": "4.3.3",
-    "eslint": "5.1.0"
+    "pkg": "5.8.1",
+    "eslint": "8.56.0"
   },
   "scripts": {
     "test": "eslint .",
-    "package": "pkg package.json --targets node8-linux-x64,node8-macos-x64,node8-win-x64"
+    "package": "pkg package.json --targets node16-linux-x64,node16-macos-x64,node16-win-x64"
   },
   "bin": "index.js",
   "pkg": {
